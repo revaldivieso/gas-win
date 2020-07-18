@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RegisterUser = () => {
- <div>
+ return <div>
      <span>Register User</span>
  </div>
 }

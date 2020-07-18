@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home } from "./views/Home";
-import { RegisterUser } from "./Components/RegisterUser";
-import { UserValidation } from "./Components/UserValidation";
+import Home from "./view/Home";
+import RegisterUser from "./Components/RegisterUser";
+import UserValidation from "./Components/UserValidation";
 import './App.css';
 
 const App = () => {

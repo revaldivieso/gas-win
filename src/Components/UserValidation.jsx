@@ -1,7 +1,7 @@
 import React from 'react';
 
 const UserValidation = () => {
- <div>
+ return <div>
      <span>Validate</span>
  </div>
 }
