@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Form, Col, Button } from 'react-bootstrap';
+import './RegisterUser.css';
 
 const UserValidation = () => {
     return <Container>
         <Form>
             <Form.Row className="align-items-center">
-                <Col sm={3} className="my-1">
+                <Col sm={5} className="my-1">
                     <Form.Label for="inlineFormInputName" srOnly>
                         Name
                     </Form.Label>
