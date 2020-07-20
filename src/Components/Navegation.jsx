@@ -4,7 +4,8 @@ import icon from '../Images/icon.png'
 
 
 const Navegation = () => {
-  return <Navbar collapseOnSelect expand="lg" bg="light">
+  return <div>
+    <Navbar collapseOnSelect expand="lg" bg="light">
       <Navbar.Brand href="/">
         <img
           alt=""
@@ -22,6 +23,11 @@ const Navegation = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+  
+    <footer>
+    <p>Copyright &copy; 2020 Vianny Reyes</p>
+  </footer>
+  </div>
 
 }
 
