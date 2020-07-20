@@ -23,15 +23,7 @@ const Navegation = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    <footer class="footer">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-auto">
-            <p>Copyright &copy; 2020 Vianny Reyes</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+
   </div>
 
 }

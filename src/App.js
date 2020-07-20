@@ -10,7 +10,7 @@ const App = () => {
   return (
     <Router>
       <header>
-      <Navegation />
+        <Navegation />
       </header>
       <div>
         {/* A <Switch> looks through its children <Route>s and
@@ -21,6 +21,15 @@ const App = () => {
           <Route path="/" component={Home} />
         </Switch>
       </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-auto">
+              <p>Copyright &copy; 2020 Vianny Reyes</p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </Router>
   );
 };
