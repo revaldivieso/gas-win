@@ -21,9 +21,6 @@ const App = () => {
           <Route path="/" component={Home} />
         </Switch>
       </div>
-      <footer>
-    <p>Copyright &copy; 2020 Vianny Reyes</p>
-  </footer>
     </Router>
   );
 };

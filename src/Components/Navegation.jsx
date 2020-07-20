@@ -1,10 +1,11 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import icon from '../Images/icon.png'
-
+import './RegisterUser.css';
 
 const Navegation = () => {
-  return  <Navbar collapseOnSelect expand="lg" bg="light">
+  return <div>
+    <Navbar collapseOnSelect expand="lg" bg="light">
       <Navbar.Brand href="/">
         <img
           alt=""
@@ -22,6 +23,16 @@ const Navegation = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <p>Copyright &copy; 2020 Vianny Reyes</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
 }
 
