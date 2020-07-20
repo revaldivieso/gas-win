@@ -39,7 +39,7 @@ const UserValidation = () => {
                     <Form.Label for="inlineFormInputName" srOnly>
                         Name
                     </Form.Label>
-                    <Form.Control value={rut} onChange={onChangeRut} id="inlineFormInputName" placeholder="Buscar Cliente" />
+                    <Form.Control value={rut} onChange={onChangeRut} id="inlineFormInputName" placeholder="Buscar Cliente por rut" />
                 </Col>
                 <Col xs="auto" className="my-1">
                     <Button type="submit">Buscar</Button>
