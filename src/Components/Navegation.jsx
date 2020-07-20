@@ -1,11 +1,10 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import icon from '../Images/icon.png'
-import './RegisterUser.css';
+
 
 const Navegation = () => {
-  return <div>
-    <Navbar collapseOnSelect expand="lg" bg="light">
+  return <Navbar collapseOnSelect expand="lg" bg="light">
       <Navbar.Brand href="/">
         <img
           alt=""
@@ -23,9 +22,6 @@ const Navegation = () => {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-
-  </div>
-
 }
 
 export default Navegation;
