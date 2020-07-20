@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![icon](readmeImg/icon.png)
 
-## Available Scripts
+## Descripción del proyecto 💻
 
-In the project directory, you can run:
+[Gas win](https://win-gas-web.herokuapp.com/), es una aplicacion web diseñada para que el usuario pueda registrarse en un formulario y la empresa pueda buscar el cliente por el rut y validar estos datos con la opcion de aprobar o rechazar. Con la utilizacion de Mongo para almacen y consulta de datos
+[Gas Win backend](https://win-gas-backend.herokuapp.com).
 
-### `npm start`
+## Definición de Usuario 👥
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ésta app, está orientada a personas que deseen pertenecer a una base de datos de la empresa.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Historia de usuario 1:
+Registrar cliente en la página web a través de un formulario.
 
-### `npm test`
+### criterios mínimos de aceptación:
+- Los campos del formulario no deben ser vacíos.
+- El rut no debe repetirse.
+- Mostrar mensaje de éxito al enviar los datos del formulario.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Historia de usuario 2:
+Validar solo datos de clientes registrados por su rut.
 
-### `npm run build`
+### criterios mínimos de aceptación:
+- El usuario debe estar registrado.
+- El rut debe ser válido.
+- Opción de rechazar o aprobar estos datos encontrados.
+- Mostrar un mensaje con el correspondiente texto de aprobado o rechazado mas nombre del cliente.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías Utilizadas 👾
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [React](https://es.reactjs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/es/).
 
-### `npm run eject`
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Git](https://git-scm.com/).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Bootstrap](https://getbootstrap.com).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [Mongo Atlas](https://cloud.mongodb.com/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [Mongoose](https://mongoosejs.com/).
 
-## Learn More
+- [Heroku](https://dashboard.heroku.com/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Tiempo de desarrollo:
 
-### Code Splitting
+2 días.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Desarrollado por:
+- [Vianny Reyes](https://github.com/revaldivieso).
